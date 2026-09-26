@@ -1,0 +1,126 @@
+body {
+    background-image: url("img/dimsum.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: left;
+    font-size: 25px;
+    color: green;
+    margin-top: 0;
+}
+
+table.layout {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#numpad_display {
+    background-color: darkgreen;
+    color: whitesmoke;
+    font-size: 36px;
+    text-align: right;
+    padding: 10px 16px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    min-height: 55px;
+}
+
+table.numpad {
+    border-collapse: collapse;
+    margin: 0 auto 16px auto;
+    width: 100%;
+}
+
+table.numpad td {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+    width: 33%;
+}
+
+.push {
+    display: block;
+}
+
+.push button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    background-color:whitesmoke;
+    color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#array-display {
+    background-color: green;
+    border: 2px solid white;
+    min-height: 52px;
+    padding: 12px;
+    margin-bottom: 16px;
+    word-wrap: break-word;
+}
+
+.array-element {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 14px;
+    margin: 4px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#target-display {
+    color: red;
+    font-weight: bold;
+}
+
+#result {
+    background-color: green;
+    color: whitesmoke;
+    border: 2px solid white;
+    min-height: 52px;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.result-found {
+    color: #a6e3a1;
+    font-weight: bold;
+}
+
+.result-none {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.empty-msg {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}

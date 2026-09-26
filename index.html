@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel ="stylesheet" href = "style.css">
+</head>
+
+<body>
+    <h1>TwoSum</h1>
+    
+    <table>
+        <td class = "calc">
+            <div id = "numpad_display">_</div>
+            <!--numpad-->
+            <table class = "numpad">
+                <tr>
+                    <td onclick = "numpress('1')">1</td>
+                    <td onclick = "numpress('2')">2</td>
+                    <td onclick = "numpress('3')">3</td>
+                </tr>
+                <tr>
+                    <td onclick = "numpress('4')">4</td>
+                    <td onclick = "numpress('5')">5</td>
+                    <td onclick = "numpress('6')">6</td>
+                </tr>
+                <tr>
+                    <td onclick = "numpress('7')">7</td>
+                    <td onclick = "numpress('8')">8</td>
+                    <td onclick = "numpress('9')">9</td>
+                </tr>
+                <tr>
+                    <td onclick = "numbackspace()"><</td>
+                    <td onclick = "numpress('0')">0</td>
+                    <td onclick = "numclear()">C</td>
+                </tr>
+            </table>
+
+            <div class = "push">
+                <button onclick = "toArray()">Push to Array</button>
+                <button onclick = "popArray()">Pop</button>
+                <button onclick = "setTarget()">Set Target</button>
+            </div>
+            
+            <!--Array/Results-->
+            <table>
+                <td>
+
+                    <p>Array</p>
+                    <div id = "array-display">
+                        <span class = "empty-msg">Array is empty</span>
+                    </div>
+
+                    <p>Target: <span id= "target-display">None</span></p>
+
+                    <p>Result</p>
+                    <div id = "result">
+                        <span class = "empty-msg">Waiting for input</span>
+                    </div>
+                </td>
+            </table>
+    </table>
+
+    <script src="twosum.js"></script>
+</body>
+</html>
